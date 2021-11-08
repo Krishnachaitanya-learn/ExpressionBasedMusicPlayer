@@ -1,0 +1,66 @@
+#first {
+  width: 97.1%;
+  height: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgba(51, 15, 15, 0.9),
+    rgba(3, 51, 75, 0.9)
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: fixed;
+  padding: 20px;
+  top: 0;
+  margin-left: 0;
+  z-index: 7;
+}
+#queue {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Segoe Script";
+  margin-right: 0px;
+  margin-top: 2px;
+  margin-left: 1100px;
+  width: 20%;
+  padding: 15px;
+  height: 70%;
+  background-color: rgba(43, 49, 63, 0.5);
+  border-radius: 15px;
+
+  position: fixed;
+  z-index: 7;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#next {
+  border-color: rgba(1, 1, 1, 0.5);
+  background: transparent url("next.png");
+  /*mix-blend-mode: multiply;*/
+  background-size: cover;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 0px;
+  z-index: 2;
+}
+#next:focus {
+  outline: none;
+}
+#next:hover {
+  box-shadow: 0px 0px 5px 5px white;
+  border-color: black;
+  background-color: rgba(1, 1, 1);
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  z-index: 2;
+}
